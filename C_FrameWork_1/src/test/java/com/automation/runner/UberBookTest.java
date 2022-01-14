@@ -10,8 +10,14 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/UberBook.feature"},
         glue = ("com.automation.stepdef"),
         tags ="@All",
+        plugin = {"pretty",
+                "json:target/MyReports/report.json",
+                "junit:target/MyReports/report.xml"},
+        monochrome = true,
+        dryRun = true
 
-        plugin = {"pretty"}
+
+
 )
 
 

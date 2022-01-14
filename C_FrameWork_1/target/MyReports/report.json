@@ -1,0 +1,337 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T07:24:57.240Z",
+        "line": 5,
+        "name": "Booking Cab for Camry",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-for-camry",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1060000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User wants to select a car type \"Camry\" from uber app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Camry\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User select car \"Camry\" and pick up point \"Bronx\" and drop location \"Manhattan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Camry\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Bronx\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Manhattan\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_select_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "com.automation.stepdef.UberSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "com.automation.stepdef.UberSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User pays 100 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 10
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_pays_usd(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-14T07:24:57.302Z",
+        "line": 13,
+        "name": "Booking Cab for Rav4",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-for-rav4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User wants to select a car type \"Rav4\" from uber app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rav4\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select car \"Rav4\" and pick up point \"Queens\" and drop location \"Manhattan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rav4\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Queens\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Manhattan\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_select_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 614000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "com.automation.stepdef.UberSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "com.automation.stepdef.UberSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User pays 200 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 10
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_pays_usd(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-14T07:24:57.319Z",
+        "line": 21,
+        "name": "Booking Cab for 4Runner",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-for-4runner",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User wants to select a car type \"4Runner\" from uber app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4Runner\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User select car \"4Runner\" and pick up point \"Bronx\" and drop location \"Manhattan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4Runner\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Bronx\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Manhattan\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_select_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "com.automation.stepdef.UberSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "com.automation.stepdef.UberSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User pays 300 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300",
+                  "offset": 10
+                }
+              ],
+              "location": "com.automation.stepdef.UberSteps.user_pays_usd(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Production"
+          }
+        ]
+      }
+    ],
+    "name": "Uber Booking Feature",
+    "description": "",
+    "id": "uber-booking-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/UberBook.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

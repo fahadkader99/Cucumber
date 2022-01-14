@@ -34,5 +34,13 @@ public class SearchSteps {
 
         //Assert.assertEquals(product.getProductName(), name);
     }
+    @Then("Order id is {int} and username is\"Fahad\"")
+    public void order_id_is_and_username_is_fahad(Integer price) {
+
+    }
+    @Then("Order id is {int} and username is\"FahadKader\"")
+    public void order_id_is_and_username_is_fahad_kader(Integer int1) {
+
+    }
 
 }
