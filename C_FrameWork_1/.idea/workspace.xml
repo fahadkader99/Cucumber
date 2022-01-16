@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8599482a-0743-4696-b617-c597ecd89e03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Cucumber.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/java/com/automation/myHooks/OrderHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/java/com/automation/runner/OrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/java/com/automation/stepdef/OrderSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/resources/order.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/com/automation/myHooks/OrderHooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/com/automation/runner/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/com/automation/stepdef/OrderSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/order.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber Online report.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/main/java/implementation/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/main/java/implementation/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/runner/AmazonSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/runner/OrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/runner/UberBookTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/AddEmployeeSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/OrderSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/SearchSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/UberSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/UberBook.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/addEmployee.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/order.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/search.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/classes/implementation/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/classes/implementation/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/UberBook.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/addEmployee.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/runner/AmazonSearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/runner/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/runner/UberBookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/AddEmployeeSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/OrderSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/SearchSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/UberSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/order.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/search.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23dCyISiFPomrl5maogDqqzAroG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="JUnit.UberBookTest">
+    <configuration name="Scenario: Search a Product Iphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/search.feature" />
+      <option name="GLUE" value="com.automation.stepdef myHooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="C_FrameWork_1" />
+      <option name="NAME_FILTER" value="^Search a Product Iphone$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search a Product Iphone$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search a Product Iphone" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Search a Product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/search.feature" />
+      <option name="GLUE" value="com.automation.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="C_FrameWork_1" />
+      <option name="NAME_FILTER" value="^Search a Product$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search a Product$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search a Product" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C_FrameWork_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.runner.AmazonSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UberBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C_FrameWork_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.runner.UberBookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UberBookTest" />
+        <item itemvalue="JUnit.AmazonSearchTest" />
+        <item itemvalue="Cucumber Java.Scenario: Search a Product Iphone" />
+        <item itemvalue="Cucumber Java.Scenario: Search a Product" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8599482a-0743-4696-b617-c597ecd89e03" name="Changes" comment="" />
+      <created>1642054833235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642054833235</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/automation/runner/AmazonSearchTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

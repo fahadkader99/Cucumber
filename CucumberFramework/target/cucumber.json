@@ -1,0 +1,690 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-15T03:39:36.840Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User enters invalid credentials, user should not allowed to login",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;user-enters-invalid-credentials--user-should-not-allowed-to-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User open website",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_open_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters invalid username and invalid password",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_enters_invalid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on the login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify user is not allowed to login",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.verify_user_is_not_allowed_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-15T03:39:36.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "User enters blank credentials, error message is diplayed.",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;user-enters-blank-credentials--error-message-is-diplayed.",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User open desired website",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_open_desired_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on the login",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_is_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User leaves the username or password field empty",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_leaves_the_username_or_password_field_empty()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User leaves the username blank or password field blank",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.user_leaves_the_username_blank_or_password_field_blank()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify user is not allowed to login to the webpage",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.verify_user_is_not_allowed_to_login_to_the_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Fahad"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-15T03:39:36.934Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verify user is unable to login with invalid credentials",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-is-unable-to-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter username \"invalidadmin\" and password \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalidadmin\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on the login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify invalid login error message \"Invalid Credentials\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.verify_invalid_login_error_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Fahad"
+          },
+          {
+            "name": "@datadriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-15T03:39:36.943Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Verify user is unable to login with invalid credentials",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-is-unable-to-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter username \"Admin\" and password \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on the login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify invalid login error message \"Invalid Credentials\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.verify_invalid_login_error_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Fahad"
+          },
+          {
+            "name": "@datadriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-15T03:39:36.952Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Verify user is unable to login with invalid credentials",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-is-unable-to-login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter username \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on the login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify invalid login error message \"Invalid Credentials\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.verify_invalid_login_error_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Fahad"
+          },
+          {
+            "name": "@datadriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-15T03:39:36.960Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Verify user is unable to login with invalid credentials",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-is-unable-to-login-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter username \"invalidadmin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalidadmin\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on the login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify invalid login error message \"Invalid Credentials\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.verify_invalid_login_error_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Fahad"
+          },
+          {
+            "name": "@datadriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-15T03:39:36.968Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Verify user is unable to login with invalid credentials",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-is-unable-to-login-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdef.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter username \"admin\" and password \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on the login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDef.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify invalid login error message \"Invalid Credentials\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.automation.stepdef.StepDef.verify_invalid_login_error_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Fahad"
+          },
+          {
+            "name": "@datadriven"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test the login functionality",
+    "description": "  Developer - Fenton\n  Tester - Tatiana\n  Reviewed By - Daniel.",
+    "id": "this-feature-is-to-test-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
