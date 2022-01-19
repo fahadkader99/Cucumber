@@ -5,56 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8599482a-0743-4696-b617-c597ecd89e03" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Cucumber.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/java/com/automation/myHooks/OrderHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/java/com/automation/runner/OrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/java/com/automation/stepdef/OrderSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/src/test/resources/order.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/com/automation/myHooks/OrderHooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/com/automation/runner/OrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/com/automation/stepdef/OrderSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C_FrameWork_2/target/test-classes/order.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber Online report.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/main/java/implementation/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/main/java/implementation/Search.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/runner/AmazonSearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/runner/OrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/runner/UberBookTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/AddEmployeeSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/OrderSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/SearchSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/java/com/automation/stepdef/UberSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/UberBook.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/addEmployee.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/order.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/test/resources/search.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/classes/implementation/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/classes/implementation/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/UberBook.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/addEmployee.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/runner/AmazonSearchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/runner/OrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/runner/UberBookTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/AddEmployeeSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/OrderSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/SearchSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/com/automation/stepdef/UberSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/order.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/target/test-classes/search.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myHooks/AmazonHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myHooks/AmazonHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/runner/AmazonSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/runner/AmazonSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/myHooks/AmazonHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/myHooks/AmazonHooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +47,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.UberBookTest">
+  <component name="RunManager" selected="JUnit.AmazonSearchTest (1)">
     <configuration name="Scenario: Search a Product Iphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/search.feature" />
@@ -136,6 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AmazonSearchTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberFrameWorkSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.runner.AmazonSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AmazonSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="C_FrameWork_1" />
       <extension name="coverage">
@@ -168,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AmazonSearchTest (1)" />
         <item itemvalue="JUnit.UberBookTest" />
         <item itemvalue="JUnit.AmazonSearchTest" />
         <item itemvalue="Cucumber Java.Scenario: Search a Product Iphone" />

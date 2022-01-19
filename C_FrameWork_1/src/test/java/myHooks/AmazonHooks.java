@@ -4,7 +4,7 @@ import io.cucumber.java.*;
 
 public class AmazonHooks {
 
-    @Before("@Smoke")
+    @Before()
     public void setUp_App(Scenario sc){
         System.out.println("Launch Amazon application");
         System.out.println("Scenario : "+sc.getName());
@@ -13,7 +13,7 @@ public class AmazonHooks {
 //    public void setUp_Url(){
 //        System.out.println("Launch the Url");
 //    }
-    @After("@Smoke")
+    @After()
     public void tearDown1(){
         System.out.println("Logout from application");
     }
