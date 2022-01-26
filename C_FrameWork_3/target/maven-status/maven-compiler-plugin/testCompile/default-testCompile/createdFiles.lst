@@ -1,0 +1,3 @@
+com/automation/hooks/MyHooks.class
+com/automation/stepDef/loginSteps.class
+com/automation/runner/loginTest.class
