@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = {"src/test/resources/feature/HomeAssignment_1.feature","src/test/resources/feature/HomeAssignment_2.feature","src/test/resources/feature/HomeAssignment_3.feature"},
-        glue = {"automation.steps","automation.hooks"},
+        glue = {"automation.steps"},
         tags = "@Assignment",
         plugin = {"pretty"}
 )

@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = {"src/test/resources/feature/SauceDemo_TestNG_UI_Framework2.feature"},
-        glue = {"automation.steps","automation.hooks"},
+        glue = {"automation.steps"},
         tags = "@Regression",
         plugin = {"pretty"}
 )

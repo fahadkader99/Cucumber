@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/resources/feature/SauceDemo_TestNG_UI_Framework2.feature","src/test/resources/feature/EndToEndTest.feature","src/test/resources/feature/Login.feature"
         ,"src/test/resources/feature/HomeAssignment_1.feature","src/test/resources/feature/HomeAssignment_2.feature","src/test/resources/feature/HomeAssignment_3.feature"},
-        glue = {"automation.steps","automation.hooks"},
+        glue = {"automation.steps"},
         tags = "@All",
         plugin = {"json:target/cucumber.json","html:target/index.html"}
 )

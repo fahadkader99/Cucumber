@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = {"src/test/resources/feature/EndToEndTest.feature"},
-        glue = {"automation.steps","automation.hooks"},
+        glue = {"automation.steps"},
         tags = "@Smoke",
         plugin = {"pretty"}
 )
