@@ -14,9 +14,9 @@ public class HomepageSteps {
         homePage.verifyUserAtHomePage();
     }
 
-    @When("user click on any item")
-    public void user_click_on_any_item() {
-        homePage.clickOnItem();
+    @When("user click on item {string}")
+    public void user_click_on_any_item(String itemName) {
+        homePage.clickOnItem(itemName);
     }
 
     @When("user click on item Sauce Labs Bike Light")
@@ -32,6 +32,11 @@ public class HomepageSteps {
     @Then("user clicks on homepage cart icon")
     public void user_clicks_on_homepage_cart_icon() {
         homePage.clickOnCartButtonHomePage();
+    }
+    @When("user click on add to cart button for item {string}")
+    public void user_click_on_add_to_cart_button_for_item(String itemName) {
+        homePage.clickOnAddToCartForSpecificItem(itemName);
+
     }
 
 }

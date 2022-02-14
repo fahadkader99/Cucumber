@@ -10,7 +10,7 @@ Feature: This feature is to test end to end flow of the website.
     Given user open websites
     When user do login
     Then verify user is on homepage
-    When user click on any item
+    When user click on item "Sauce Labs Onesie"
     Then verify user is on product detail page
     When user clicks on add to cart button
     And  click on cart icon
@@ -23,3 +23,11 @@ Feature: This feature is to test end to end flow of the website.
     When user click on finish button
     Then verify user is on order confirmation page
     And  verify order confirmation message
+
+
+
+    # this Project I am learning & using :::::
+
+    # screenshot after test at the report ,
+    # Dynamic locator handling. ,
+    # using independent Locator(add to cart)

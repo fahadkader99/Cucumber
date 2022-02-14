@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="automation.runner.SystemTest" time="32.507" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="automation.runner.SystemTest" time="34.804" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.13+8-LTS"/>
     <property name="sun.boot.library.path" value="/Users/fahadkader/Library/Java/JavaVirtualMachines/corretto-11.0.13/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/fahadkader/Desktop/Git/Cucumber/SauceDemo_Cucumber_UI_Framework1"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/fahadkader/Desktop/Git/Cucumber/SauceDemo_Cucumber_UI_Framework2"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/fahadkader/Desktop/Git/Cucumber/SauceDemo_Cucumber_UI_Framework1"/>
+    <property name="user.dir" value="/Users/fahadkader/Desktop/Git/Cucumber/SauceDemo_Cucumber_UI_Framework2"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.13+8-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -65,10 +65,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="This feature is to test end to end flow of the website." name="Verify user can place order" time="5.707"/>
-  <testcase classname="This Feature is to test the cart functionality of the app" name="Verify user is able to see there product on the cart" time="5.522"/>
-  <testcase classname="This Feature is is to test that user is able to add item in cart and also able to remove item from there cart successfully" name="Verify user is able to add and remove item from there cart and application behave as expected." time="5.399"/>
-  <testcase classname="This feature is to test that user is able to login add item to cart, logout and login again to continue the order." name="Verify user is able to continue the order after logout" time="5.256"/>
-  <testcase classname="This feature file to test the functionality related to login." name="Verify user can login." time="3.507"/>
-  <testcase classname="This feature is to test user is able to oder multiple items on the website." name="Verify user can select multiple items and place order." time="7.116"/>
+  <testcase classname="This feature is to test end to end flow of the website." name="Verify user can place order" time="6.809"/>
+  <testcase classname="This Feature is to test the cart functionality of the app" name="Verify user is able to see there product on the cart" time="5.837"/>
+  <testcase classname="This Feature is is to test that user is able to add item in cart and also able to remove item from there cart successfully" name="Verify user is able to add and remove item from there cart and application behave as expected." time="5.818"/>
+  <testcase classname="This feature is to test that user is able to login add item to cart, logout and login again to continue the order." name="Verify user is able to continue the order after logout" time="5.528"/>
+  <testcase classname="This feature file to test the functionality related to login." name="Verify user can login." time="4.012"/>
+  <testcase classname="This feature is to test user is able to oder multiple items on the website." name="Verify user can select multiple items and place order." time="6.8"/>
 </testsuite>

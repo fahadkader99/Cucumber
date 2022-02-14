@@ -1,14 +1,11 @@
 automation/pages/ReviewPage.class
-automation/runner/AssignmentTest.class
 automation/steps/TshirtSteps.class
+automation/steps/CommonMethods.class
 automation/steps/CheckoutSteps.class
 automation/pages/TshirtPage.class
 automation/steps/OrderConfirmationSteps.class
 automation/pages/HomePage.class
-automation/runner/SmokeTest.class
-automation/hooks/MyHooks.class
 automation/pages/BikeLightPage.class
-automation/runner/LoginTest.class
 automation/pages/ProductDetailPage.class
 automation/steps/ReviewSteps.class
 automation/pages/Base_Page.class
@@ -16,7 +13,6 @@ automation/steps/CartSteps.class
 automation/steps/BikeLightSteps.class
 automation/steps/Hooks.class
 automation/steps/ProductDetailSteps.class
-automation/runner/RegressionTest.class
 automation/runner/SystemTest.class
 automation/utils/PropertyReader.class
 automation/pages/CheckoutPage.class
