@@ -1,285 +1,89 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 8,
-        "name": "",
+        "start_timestamp": "2022-02-17T08:10:28.326Z",
+        "line": 5,
+        "name": "user registration with different data",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 392000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User open websites",
-            "match": {
-              "location": "com.automation.stepDef.loginSteps.user_open_websites()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 112000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on login Page",
-            "match": {
-              "location": "com.automation.stepDef.loginSteps.user_is_on_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 841000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters username \"admin\" and Password \"admin123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"admin123\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.stepDef.loginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 197000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click on login button",
-            "match": {
-              "location": "com.automation.stepDef.loginSteps.click_on_login_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-01-24T04:27:01.612Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4923000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.hooks.MyHooks.setDataTable()"
-            }
-          }
-        ],
-        "line": 50,
-        "name": "verify user is able to see the web table data",
-        "description": "",
-        "id": "this-feature-is-to-test-the-login-in-functionality.;verify-user-is-able-to-see-the-web-table-data",
-        "after": [
-          {
-            "result": {
-              "duration": 178000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.hooks.MyHooks.closeDataTable()"
-            }
-          }
-        ],
+        "id": "user-registration;user-registration-with-different-data",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 177000,
+              "duration": 2217000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "verify user is navigated to homepage",
+            "line": 6,
+            "name": "User is on registration page",
             "match": {
-              "location": "com.automation.stepDef.loginSteps.verify_user_is_navigated_to_homepage()"
+              "location": "com.automation.stepDef.RegistrationSteps.user_is_on_registration_page()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2493000,
+              "duration": 1309000,
               "status": "passed"
             },
-            "line": 52,
-            "name": "verify the below data table are shown",
+            "line": 7,
+            "name": "User enters following user details",
             "match": {
-              "location": "com.automation.stepDef.loginSteps.verify_the_below_data_table_are_shown(io.cucumber.datatable.DataTable)"
+              "location": "com.automation.stepDef.RegistrationSteps.user_enters_following_user_details(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
                 "cells": [
-                  "Airi Satou",
-                  "Accountant",
-                  "Tokyo",
-                  "33",
-                  "2008/11/28"
+                  "naven",
+                  "automation",
+                  "nav@gmail.com",
+                  "9999",
+                  "Banglore"
                 ]
               },
               {
                 "cells": [
-                  "Angelica Ramos",
-                  "Chief Executive Officer (CEO)",
-                  "London",
-                  "47",
-                  "2009/10/09"
+                  "Ash",
+                  "kader",
+                  "ash@gmail.com",
+                  "1234",
+                  "Bronx"
                 ]
               },
               {
                 "cells": [
-                  "Ashton Cox",
-                  "Junior Technical Author",
-                  "San Francisco",
-                  "66",
-                  "2009/01/12"
-                ]
-              },
-              {
-                "cells": [
-                  "Bradley Greer",
-                  "Software Engineer",
-                  "London",
-                  "41",
-                  "2012/10/13"
-                ]
-              },
-              {
-                "cells": [
-                  "Brenden Wagner",
-                  "Software Engineer",
-                  "San Francisco",
-                  "28",
-                  "2011/06/07"
-                ]
-              },
-              {
-                "cells": [
-                  "Brielle Williamson",
-                  "Integration Specialist",
-                  "New York",
-                  "61",
-                  "2012/12/02"
+                  "kader",
+                  "fahad",
+                  "test@gmail.com",
+                  "4422",
+                  "Booklyn"
                 ]
               }
             ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 667000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "user clicks on user badge icon",
-            "match": {
-              "location": "com.automation.stepDef.loginSteps.user_clicks_on_user_badge_icon()"
-            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 192000,
+              "duration": 257000,
               "status": "passed"
             },
-            "line": 60,
-            "name": "select on layout option",
+            "line": 11,
+            "name": "user registration should be successful",
             "match": {
-              "location": "com.automation.stepDef.loginSteps.select_on_layout_option()"
+              "location": "com.automation.stepDef.RegistrationSteps.user_registration_should_be_successful()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 172000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "user is still on the login page",
-            "match": {
-              "location": "com.automation.stepDef.loginSteps.user_is_still_on_the_login_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 752000,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "verify another table data are also shown",
-            "match": {
-              "location": "com.automation.stepDef.loginSteps.verify_another_table_data_are_also_shown(io.cucumber.datatable.DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Airi Satou"
-                ]
-              },
-              {
-                "cells": [
-                  "Angelica Ramos"
-                ]
-              },
-              {
-                "cells": [
-                  "Bradley Greer"
-                ]
-              },
-              {
-                "cells": [
-                  "Brenden Wagner"
-                ]
-              },
-              {
-                "cells": [
-                  "Brielle Williamson"
-                ]
-              }
-            ],
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@All"
-          },
-          {
-            "name": "@DataTable"
           }
         ]
       }
     ],
-    "name": "This Feature is to test the Login-In Functionality.",
-    "description": "  Dev - Ash\n  Tester - Kader",
-    "id": "this-feature-is-to-test-the-login-in-functionality.",
+    "name": "User Registration",
+    "description": "",
+    "id": "user-registration",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/login.feature",
-    "tags": [
-      {
-        "name": "@All",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/registration_data_table.feature",
+    "tags": []
   }
 ]
