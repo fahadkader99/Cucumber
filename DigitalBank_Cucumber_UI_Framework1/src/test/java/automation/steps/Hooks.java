@@ -1,6 +1,7 @@
 package automation.steps;
 
 import automation.pages.HomePage;
+import automation.utils.DataBaseUtils;
 import automation.utils.DriverUtils;
 import automation.utils.PropertyReader;
 import io.cucumber.java.After;
@@ -8,10 +9,21 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebElement;
 
+import javax.xml.crypto.Data;
+
 public class Hooks {
+
+    @Before("@db")
+    public void setDB(){
+        DataBaseUtils.createDB_Connection();
+    }
+
 
     @Before
     public void setUp(){
+        PropertyReader.initProperties();
+
+
         String platform = PropertyReader.getProperty("platform");
 
         if (platform.equals("local")){
@@ -29,8 +41,16 @@ public class Hooks {
 
     }
 
+    @After("@db")
+    public void closeDB(){
+        DataBaseUtils.closeDB_Connection();
+    }
+
+
     @After
     public void cleanUp(Scenario sc){
+
+
         byte[] data = CommonMethods.takeScreenShot();
         sc.attach(data, "image/png", "My screenshot");
 

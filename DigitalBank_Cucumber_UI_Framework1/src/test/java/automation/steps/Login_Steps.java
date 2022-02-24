@@ -25,6 +25,15 @@ public class Login_Steps {
     }
 
 
+    @When("user click on sign up button")
+    public void user_click_on_sign_up_button() {
+
+    }
+
+    @Then("verify registration success message")
+    public void verify_registration_success_message() {
+
+    }
 
 
 
