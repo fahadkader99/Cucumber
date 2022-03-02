@@ -16,9 +16,11 @@ public class LoginPage extends BasePage{
     @FindBy(id = "password")
     public WebElement passwordBox;
 
+    @FindBy(xpath = "//div[contains(@class,'register-link')]//a")
+    WebElement signUpBtn;
 
-
-
+    @FindBy(xpath = "//span[@class='badge badge-pill badge-success']")
+    WebElement verifySuccessMessage;
 
     public void doLogin(){
         userNameBox.sendKeys(PropertyReader.getProperty("login.username"));
@@ -36,4 +38,15 @@ public class LoginPage extends BasePage{
         Assert.assertTrue("Sign in Button is missing ", signInBtn.isDisplayed());
     }
 
+    public void userOpenDigitalBank() {
+        driver.get(PropertyReader.getProperty("bank.url"));
+    }
+
+    public void clickOnSignUpBtn() {
+        signUpBtn.click();
+    }
+
+    public void verifyRegistrationSuccessMessage() {
+        Assert.assertTrue("Registration Success Message is not visible",verifySuccessMessage.isDisplayed());
+    }
 }

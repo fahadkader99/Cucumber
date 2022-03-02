@@ -2,7 +2,7 @@ Feature: This feature is to sign up to the Digital Bank Account
 
   @db
   Scenario: Verify user can Sign Up
-    Given user open website
+    Given user open digital bank website
     When  user click on sign up button
     Then  verify signup page is displayed
     When  user fill all detail on sign up page
@@ -14,3 +14,4 @@ Feature: This feature is to sign up to the Digital Bank Account
     And   verify all details updated in database
 
 
+# This feature is only for database validation with Remote SQL serer ___

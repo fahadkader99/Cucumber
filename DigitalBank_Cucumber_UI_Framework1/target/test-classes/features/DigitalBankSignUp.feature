@@ -14,3 +14,4 @@ Feature: This feature is to sign up to the Digital Bank Account
     And   verify all details updated in database
 
 
+# This feature is only for database validation with Remote SQL serer ___

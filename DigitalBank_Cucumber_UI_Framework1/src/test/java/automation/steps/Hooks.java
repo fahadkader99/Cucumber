@@ -1,27 +1,25 @@
 package automation.steps;
 
 import automation.pages.HomePage;
+import automation.utils.CommonMethods;
 import automation.utils.DataBaseUtils;
 import automation.utils.DriverUtils;
 import automation.utils.PropertyReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.openqa.selenium.WebElement;
-
-import javax.xml.crypto.Data;
 
 public class Hooks {
 
-    @Before("@db")
-    public void setDB(){
-        DataBaseUtils.createDB_Connection();
-    }
+//    @Before("@db")
+//    public void setDB(){ DataBaseUtils.createDB_Connection();}
 
 
     @Before
     public void setUp(){
+
         PropertyReader.initProperties();
+        DataBaseUtils.createDB_Connection();            // use it only when using DB || it will always create DB connection so i can comment it if not using DB validation
 
 
         String platform = PropertyReader.getProperty("platform");
@@ -41,15 +39,15 @@ public class Hooks {
 
     }
 
-    @After("@db")
-    public void closeDB(){
-        DataBaseUtils.closeDB_Connection();
-    }
+//    @After("@db")
+//    public void closeDB(){ DataBaseUtils.closeDB_Connection();}
+
 
 
     @After
     public void cleanUp(Scenario sc){
 
+        DataBaseUtils.closeDB_Connection();
 
         byte[] data = CommonMethods.takeScreenShot();
         sc.attach(data, "image/png", "My screenshot");

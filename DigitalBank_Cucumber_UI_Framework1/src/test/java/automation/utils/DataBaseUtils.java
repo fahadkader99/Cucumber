@@ -22,9 +22,7 @@ public class DataBaseUtils {
             e.printStackTrace();
         }
 
-
     }
-
 
 
     public static ResultSet execute_Query(String query){

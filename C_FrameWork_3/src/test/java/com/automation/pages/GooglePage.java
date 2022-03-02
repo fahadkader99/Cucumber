@@ -7,18 +7,11 @@ import org.openqa.selenium.support.FindBy;
 public class GooglePage extends BasePage{
 
 
-    @FindBy(xpath = "//input[@title='Search']")
-    public WebElement searchBox;
+    @FindBy(xpath = "//input[@class='gLFyf gsfi']")
+    WebElement searchBox;
 
-    @FindBy(name = "btnK")
-    public WebElement searchBtn;
-
-
-
-
-
-
-
+    @FindBy(xpath = "//div[@class='FPdoLc lJ9FBc']/center/input[@value='Google Search']")
+    WebElement searchButton;
 
 
 
@@ -29,14 +22,9 @@ public class GooglePage extends BasePage{
 
     public void userSendHisName() {
         searchBox.sendKeys(PropertyReader.getProperty("name"));
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
-    public void userClickOnSearchButton() {
-        searchBtn.click();
+    public void userClickSearchBtn() {
+        searchButton.click();
     }
 }

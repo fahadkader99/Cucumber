@@ -20,19 +20,24 @@ public class Login_Steps {
     }
 
     @When("user click on login button")
-    public void user_click_on_login_button() {
+    public void userClickOnLoginButton() {
         loginPage.doLogin();
+    }
+
+    @Given("user open digital bank website")
+    public void userOpenDigitalBankWebsite() {
+        loginPage.userOpenDigitalBank();
     }
 
 
     @When("user click on sign up button")
     public void user_click_on_sign_up_button() {
-
+        loginPage.clickOnSignUpBtn();
     }
 
     @Then("verify registration success message")
     public void verify_registration_success_message() {
-
+        loginPage.verifyRegistrationSuccessMessage();
     }
 
 
