@@ -15,6 +15,7 @@ public class CommonMethods {
         return srcFile;
     }
 
+
     public static String generateRandomSSN(){
         int m = (int) Math.pow(10,8);
         int ssn = m+ new Random().nextInt(9 * m);

@@ -64,12 +64,13 @@ public class DataBaseUtils {
         // 2. Execute Query
         Statement statement = con.createStatement();
         ResultSet rs =statement.executeQuery("select username from users;");
+
         // we are passing the query from the DB which is connected to the digital Bank DB in step 1
         // ResultSet is where we are saving the result which is thrown from execute query
 
 
         // 3. Process / print result
-        while (rs.next()){                          // Step 3 or while loop is only for printing the result or saving it on arraylist / map
+        while (rs.next()){                                                                          // Step 3 or while loop is only for printing the result or saving it on arraylist / map
             System.out.println(rs.getString("username"));
         }
 
