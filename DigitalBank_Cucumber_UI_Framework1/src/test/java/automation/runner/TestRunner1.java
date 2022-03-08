@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/UN1HomePage.feature","src/test/resources/features/UN2CheckingAccount.feature"},
+        features = {"src/test/resources/features/UN1HomePage.feature","src/test/resources/features/UN2CheckingAccount.feature","src/test/resources/features/UN3ManageCheckingAccount.feature"},
         glue = "automation.steps",
-        tags = "@Smoke",
+        tags = "@Regression",
         plugin = {"pretty","json:target/cucumber.json", "html:target/index.html"}
 
 

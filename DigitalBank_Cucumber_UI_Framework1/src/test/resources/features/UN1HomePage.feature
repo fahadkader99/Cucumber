@@ -1,5 +1,6 @@
 
 @Smoke
+@Regression
 Feature: This feature is to test functionality related to the Home Page
 
   Background:

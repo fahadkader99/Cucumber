@@ -1,3 +1,4 @@
+@Regression
 Feature: this feature is to test if the user have the ability to view there Checking
   bank account and user can manage it.
 

@@ -1,5 +1,6 @@
 
 @Smoke
+@Regression
 Feature: This feature is to test new Checking Account functionalities
 
   Developer -> Chris
