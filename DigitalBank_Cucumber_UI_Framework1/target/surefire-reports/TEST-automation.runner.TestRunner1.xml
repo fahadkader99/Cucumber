@@ -1,94 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="26" failures="0" name="automation.runner.TestRunner1" time="126.118" errors="0" skipped="0">
+<testsuite tests="26" failures="0" name="automation.runner.TestRunner1" time="182.518" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.13+8-LTS"/>
-    <property name="sun.boot.library.path" value="/Users/fahadkader/Library/Java/JavaVirtualMachines/corretto-11.0.13/Contents/Home/lib"/>
-    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/fahadkader/Desktop/Git/Cucumber/DigitalBank_Cucumber_UI_Framework1"/>
-    <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value="unknown"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/fahadkader/Desktop/Git/Cucumber/DigitalBank_Cucumber_UI_Framework1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.13+8-LTS"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/60/l05vcbdj27v51cr1v367kz940000gn/T/"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/fahadkader/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="12.2.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.4/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/fahadkader"/>
     <property name="user.timezone" value="America/New_York"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="11"/>
+    <property name="java.specification.version" value="17"/>
     <property name="user.name" value="fahadkader"/>
-    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.1 test"/>
-    <property name="java.home" value="/Users/fahadkader/Library/Java/JavaVirtualMachines/corretto-11.0.13/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.13"/>
-    <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2021-10-19"/>
-    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Corretto-11.0.13.8.1"/>
+    <property name="java.vendor.version" value="Homebrew"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify user is able to see welcome message." time="6.901"/>
-  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify home title" time="4.317"/>
-  <testcase classname="This feature is to test functionality related to the Home Page" name="verify checking category" time="4.518"/>
-  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify savings category" time="4.308"/>
-  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify external category under banking account" time="4.223"/>
-  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify Transactions title and categories" time="4.3"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Verify available options under Checking section #1" time="4.939"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Verify available options under Checking section #2" time="4.817"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Verify user is redirected to new page after clicking on New Checking" time="4.869"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Checking Account Type categories verification #1" time="4.645"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Checking Account Type categories verification #2" time="4.827"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Select Account Ownership categories verification #1" time="4.405"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Select Account Ownership categories verification #2" time="4.759"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Account Name element verification" time="6.63"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Initial Deposit Amount element verification" time="4.92"/>
-  <testcase classname="This feature is to test new Checking Account functionalities" name="Create New Account verification" time="4.934"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify Transactions table is displayed #1" time="4.41"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify Transactions table is displayed #2" time="4.858"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="user is able to see View Checking page Transactions" time="4.828"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #1" time="4.926"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #2" time="4.622"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #3" time="4.652"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #4" time="5.018"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #5" time="5.021"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="Verify that only 1 checking account is Activated" time="4.693"/>
-  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="Verify transaction history is displayed" time="4.778"/>
+  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify user is able to see welcome message." time="9.566"/>
+  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify home title" time="6.506"/>
+  <testcase classname="This feature is to test functionality related to the Home Page" name="verify checking category" time="6.325"/>
+  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify savings category" time="6.376"/>
+  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify external category under banking account" time="6.301"/>
+  <testcase classname="This feature is to test functionality related to the Home Page" name="Verify Transactions title and categories" time="6.346"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Verify available options under Checking section #1" time="7.027"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Verify available options under Checking section #2" time="7.231"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Verify user is redirected to new page after clicking on New Checking" time="7.094"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Checking Account Type categories verification #1" time="7.299"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Checking Account Type categories verification #2" time="6.977"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Select Account Ownership categories verification #1" time="6.721"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Select Account Ownership categories verification #2" time="7.049"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Account Name element verification" time="9.029"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Initial Deposit Amount element verification" time="7.173"/>
+  <testcase classname="This feature is to test new Checking Account functionalities" name="Create New Account verification" time="7.6"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify Transactions table is displayed #1" time="6.925"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify Transactions table is displayed #2" time="6.582"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="user is able to see View Checking page Transactions" time="6.567"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #1" time="6.4"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #2" time="7.379"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #3" time="6.67"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #4" time="6.825"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="verify &quot;Date&quot; header is displayed under transaction table #5" time="6.824"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="Verify that only 1 checking account is Activated" time="6.726"/>
+  <testcase classname="this feature is to test if the user have the ability to view there Checking" name="Verify transaction history is displayed" time="7"/>
 </testsuite>
