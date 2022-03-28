@@ -1,10 +1,12 @@
 package automation.steps;
 
 import automation.pages.HomePage;
+import automation.utils.Common_Methods;
 import automation.utils.DriverUtils;
 import automation.utils.PropertyReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class Hooks {
 
@@ -32,7 +34,12 @@ public class Hooks {
 
 
     @After
-    public void closeUp(){
+    public void closeUp(Scenario scenario){
+
+        byte[] data = Common_Methods.takeScreenShot();
+        scenario.attach(data,"image/png","Cucumber ScreenShot");
+
+
         HomePage homePage = new HomePage();
         homePage.userClicksSignOutButton();         // Logout function.
 

@@ -9,16 +9,17 @@ public class LoginPage extends BasePage{
 
 
     @FindBy(id = "username")
-    private WebElement userNameField;
+    public WebElement userNameField;
 
     @FindBy(id = "password")
-    private WebElement passwordField;
+    public WebElement passwordField;
 
     @FindBy(id = "remember-me")
-    private WebElement rememberMeBox;
+    public WebElement rememberMeBox;
 
     @FindBy(id = "submit")
-    private WebElement signInBtn;
+    public WebElement signInBtn;
+
 
 
     public void userOpenWebsite() {

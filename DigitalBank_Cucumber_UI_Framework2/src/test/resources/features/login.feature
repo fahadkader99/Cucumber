@@ -6,3 +6,5 @@ Feature: This feature is to test the Login Functionality
     And   user input valid credentials
     When  user clicks on the sign in button
     Then  verify user is navigated to home page
+
+    
